@@ -1,0 +1,7 @@
+start,A new semester begins. You are excited to teach computational linguistics! Your goal is to manage grading and feedback without exhausting yourself. Wanna start grading?
+grading,Time to grade student assignments. Be careful with your energy levels! Each grading session consumes 5 Energy Points (EP).
+feedback_1,You successfully finished grading. Do you want to go to the first feedback session?
+feedback_2,You successfully finished grading. Do you want to go to the second feedback session?
+evaluation,Congrats! you have finished the game. you can check your evaluation.
+finished,Wanna play again?
+defeat,Unfortunately you lost the game. Wanna give it another try?
