@@ -32,7 +32,7 @@ class Grading:
         """Handles grading a single student, including random events."""
         while True:
             grade = input(
-                f"Enter valid grade for {student} or wanna rest or eat a chocolate ").strip()
+                f"Enter valid grade for {student} or wanna rest or eat a chocolate : ").strip()
 
             if grade == "rest":
                 self.player.rest()
