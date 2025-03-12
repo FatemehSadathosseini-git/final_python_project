@@ -56,7 +56,7 @@ class GameEngine:
         """Handles user input and transitions game states, enforcing allowed commands."""
         # Ensure the command is valid for the current state
         if command not in self.commands_by_state.get(self.state, []):
-            print(f"Invalid command in {self.state} state! Try again.")
+            print(f"Invalid command in {self.state} state! Try again. {self.commands_by_state.get(self.state, [])}")
             return True
 
 
