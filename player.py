@@ -49,12 +49,17 @@ class Player:
 
     def assign_grade(self, student, grade):
         """Assign a valid grade to a student."""
-        float_grade = float(grade) 
+        try:
+            float_grade = float(grade)
+        except ValueError:
+            print(f"Invalid grade '{grade}' for student '{student}'. Grade must be a number.")
+            return False
 
         if 1 <= float_grade <= 5:
             self.grades[student] = float_grade
             return True
         else:
+            print(f"Invalid grade '{grade}' for student '{student}'. Grade must be between 1 and 5.")
             return False
 
     def get_evaluation(self):

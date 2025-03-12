@@ -36,7 +36,7 @@ class Grading:
 
             if grade == "rest":
                 self.player.rest()
-            elif grade == "eat chocolate":
+            elif grade in ["chocolate", "eat chocolate", "eat a chocolate"]:
                 if not self.chocolate_used:
                     self.player.eat_chocolate()
                     self.chocolate_used = True
