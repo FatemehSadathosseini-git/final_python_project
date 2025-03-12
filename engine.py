@@ -38,6 +38,8 @@ class GameEngine:
 
 
             self.display_scene()
+            print("EP: ", self.player.energy)
+            print("Evaluation: ", self.player.evaluation)
             command = input("> ").strip().lower()
 
             if command == "exit":
