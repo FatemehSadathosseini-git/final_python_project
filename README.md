@@ -1,4 +1,4 @@
-### final project python
+### final python project 
 author: Fathemeh Sadat Hosseini
 
 # Tutor's Journey - Text Adventure Game
